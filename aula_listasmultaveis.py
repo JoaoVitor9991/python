@@ -38,3 +38,35 @@ print(lista)
 a = [81, 82,83]
 a.append(5)
 print(a)
+
+#
+a = [88, 81, 82, 83]
+a.sort()
+print(a)
+
+#
+a = [1,2,3,4,5,6,7,8,9]
+print(a.index(4))
+
+#
+a = [88,81,82,83]
+a.insert(1,100) #posicao,insira 100
+print(a)
+
+#
+a = [88,81,82,83,88,85,88,86]
+print(a)
+print(a.count(88))
+
+#
+a = [88,81,82,83,88,85,88,86]
+a.pop()
+print(a)
+
+a.pop(0)
+print(a)
+
+#
+lista = [1,2]
+lista.extend([3,4])
+print(lista)
