@@ -19,3 +19,8 @@ print(uma_lista)
 print(len(uma_lista))
 
 #
+uma_lista = ['a', 'b','f']
+uma_lista[1:1] = ['c','f']
+print(uma_lista)
+uma_lista[4:4] = ['e']
+print(uma_lista)
