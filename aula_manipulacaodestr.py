@@ -1,69 +1,61 @@
-#manipulaçao de str, funçao len
-
+#manipulaçao de str
+#empregada para obter o comprimento de uma sequência qualquer
+#retorna o número de caracteres presentes na string.​
 a = "Ederson"
 print(len(a))
  
-#funçao capitalize
-
+#transformar a primeira letra da primeira palavra em maiúscula
 a = "ederson"
 print(a.capitalize())
 
-#funçao upper
-
+#transformar todo o texto em maiúsculo
 a = "ederson"
 print(a.upper())
 
-#funçao casefold
-
+#transformar todo o texto em minusculo
 a = "EDERSON"
 print(a.casefold())
 
-#fuçao lower
-
+#transformar todo o texto em minusculo
 a = "EDERSON"
 print(a.lower())
 
-#funçao islower
-
+#Identificar se todo o texto está em minusculo
 a ="EDERSON"
 print(a.islower())
 a ="ederson"
 print(a.islower())
 
-#funçao isupper
-
+#Identificar se todo o texto está em maiúsculo
 a = "EDERSON"
 print(a.isupper())
 a = "ederson"
 print(a.isupper())
 
-#funçao isdigit
-
+#Como verificar se uma string só possui números inteiros
 a = "12345"
 print(a.isdigit())
 a = "12345abcd"
 print(a.isdigit())
 
-#funçao replace
-
+#trocar todas as ocorrências de uma substring por outra em uma string. ​
 a = "Ederson Roberto"
 print(a.replace("Roberto","Costa"))
 
-#funçao split
-
+#separa uma string usando sep como separador
 a = "Ederson - Roberto - Costa"
 print(a.split("-"))
 
-#funçao fing
+#retorna onde a substring começa na string (“Primeira”)​
 
 a = "A B C D E F G H"
 print(a.find("F"))
 
-#funçao in
+#verifica se uma substring é parte de uma outra string
 a = "Anne Primon Silva"
 print("Primon" in a)
 
-#funçao count
+#retorna a frequência de ocorrência do parâmetro passado
 
 a = "Anne Primon Silva"
 print(a.count("n"))
