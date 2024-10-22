@@ -1,0 +1,17 @@
+a = float(input("Digite a população A: "))
+ta = float(input("Digite a taxa da A: "))
+b = float(input("Digite a população B: "))
+tb = float(input("Digite a taxa do B: "))
+
+cont = 0
+while True:
+    if a <= b:
+        a = a + (a * ta/100)
+        b = b + (b * tb/100)
+        cont = cont + 1
+
+    else:
+        break
+print('A:',a) 
+print('B:',b)
+print(f'Para A passar B levara {cont} anos')
