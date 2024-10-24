@@ -33,7 +33,6 @@ while True:
     if escolha == 6:
         print('Voto registrado!')
         cont6 += 1
-    if 
     else:
         print('Voto regitrado!')
         cont5 += 1
