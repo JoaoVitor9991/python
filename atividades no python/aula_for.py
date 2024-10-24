@@ -47,5 +47,5 @@ for i in range(5):
         print(i,j)
 
 nome = ['Pedro' 'Joao' 'Leticia']
-for n in nomes:
+for n in nome:
     print(n)
